@@ -1,0 +1,7 @@
+![Slide1](https://github.com/marvinwanzuita/meuremedio/assets/66476979/cdce170a-8635-4d48-b4d6-be0ab4ae894a)
+![Slide2](https://github.com/marvinwanzuita/meuremedio/assets/66476979/6b174e8e-1129-4152-9466-2a1939f7e98b)
+![Slide3](https://github.com/marvinwanzuita/meuremedio/assets/66476979/f79c1792-6456-452f-a0d9-320ec0e6e836)
+![Slide4](https://github.com/marvinwanzuita/meuremedio/assets/66476979/b661b068-bb5f-4ffc-ba0e-b9247c6a84cc)
+![Slide5](https://github.com/marvinwanzuita/meuremedio/assets/66476979/6da45852-0e6c-41cc-9224-a54b51cbfdfd)
+![Slide6](https://github.com/marvinwanzuita/meuremedio/assets/66476979/409893c2-340e-4f52-9e7b-6ad8d5968f74)
+![Slide7](https://github.com/marvinwanzuita/meuremedio/assets/66476979/20ea0976-6287-4b5b-8379-f9d7637b7400)
