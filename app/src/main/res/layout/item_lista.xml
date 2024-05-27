@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="left"
+    android:padding="20dp"
+    android:layout_marginBottom="20dp"
+    android:background="@color/cinza_fundo"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome do Remédio:"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/txtNomeRemedio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texto Nome do Remedio"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:text="Componentes:"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/txtComponente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texto componentes"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:text="Horário de Uso"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/txtHorarioUso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texto horario de uso"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:text="Precauções:"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/txtPrecaucoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texto precauções"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:text="Observações:"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/txtObservacoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texto observações"
+        android:textColor="@color/black"
+
+        android:textSize="18sp" />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="left">
+
+        <Button
+            android:id="@+id/btnEditar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/cinza_botao"
+            android:drawableLeft="@drawable/ic_editar"
+            android:padding="6dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="Editar"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnDeletar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:backgroundTint="@color/cinza_botao"
+            android:drawableLeft="@drawable/ic_deletar"
+            android:padding="6dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="Deletar"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

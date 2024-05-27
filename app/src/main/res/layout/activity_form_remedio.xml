@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/fundo_gradiente"
+    tools:context=".controller.FormRemedio">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/remedios"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="32dp"
+            android:layout_marginStart="20dp"
+            android:text="Cadastrar\nRemédio"
+            android:textColor="@color/azul_escuro"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imgRemedios"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgRemedios"
+            app:layout_constraintTop_toTopOf="@+id/imgRemedios" />
+
+    </LinearLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        app:boxStrokeWidth="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="@color/white"
+        app:boxStrokeWidthFocused="0dp"
+        app:hintTextColor="@color/azul_escuro"
+        android:textColorHint="@color/azul_escuro"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtNomeRemedio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome do remédio"
+            android:textColor="@color/azul_escuro"
+            android:textColorHint="@color/azul_escuro" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        app:boxStrokeWidth="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="@color/white"
+        app:boxStrokeWidthFocused="0dp"
+        app:hintTextColor="@color/azul_escuro"
+        android:textColorHint="@color/azul_escuro">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtComponentes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Componentes"
+            android:textColor="@color/azul_escuro" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        app:boxStrokeWidth="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="@color/white"
+        app:boxStrokeWidthFocused="0dp"
+        app:hintTextColor="@color/azul_escuro"
+        android:textColorHint="@color/azul_escuro"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtHorarioUso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Horário de Uso"
+            android:textColor="@color/azul_escuro" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        app:boxStrokeWidth="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="@color/white"
+        app:boxStrokeWidthFocused="0dp"
+        app:hintTextColor="@color/azul_escuro"
+        android:textColorHint="@color/azul_escuro"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtPrecaucoes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Precauções"
+            android:textColor="@color/azul_escuro" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        app:boxStrokeWidth="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="@color/white"
+        app:boxStrokeWidthFocused="0dp"
+        app:hintTextColor="@color/azul_escuro"
+        android:textColorHint="@color/azul_escuro"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtObservacoes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Observações"
+            android:textColor="@color/azul_escuro" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnCadastrarRemedio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="@color/azul_escuro"
+        android:padding="10dp"
+        android:text="Cadastrar"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>
